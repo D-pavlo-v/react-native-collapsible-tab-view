@@ -65,6 +65,7 @@ export type MaterialTabBarProps<N extends TabName> = TabBarProps<N> & {
    * Style to apply to the individual tab items in the tab bar.
    */
   tabStyle?: StyleProp<ViewStyle>
+  tabBarStyle?: StyleProp<ViewStyle>
   /**
    * Style to apply to the tab item label
    */
