@@ -68,6 +68,7 @@ export type CollapsibleProps = {
    * Is optional, but will optimize the first render.
    */
   headerHeight?: number
+  tabBarStyle?: StyleProp<ViewStyle>
   /**
    * Is optional, but will optimize the first render.
    */
