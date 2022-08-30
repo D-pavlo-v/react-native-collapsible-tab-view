@@ -51,15 +51,10 @@ export const MaterialTabItem = <T extends TabName = string>(
   })
 
   const renderedLabel = useMemo(() => {
-    if (typeof label === 'string') {
       return (
-        <Animated.Text style={[styles.label, stylez, labelStyle]}>
-          {label}
-        </Animated.Text>
+          label
       )
-    }
 
-    return label(props)
   }, [label, labelStyle, props, stylez])
 
   return (
