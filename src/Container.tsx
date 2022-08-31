@@ -16,6 +16,7 @@ import Animated, {
   withDelay,
   withTiming,
 } from 'react-native-reanimated'
+import Constants from 'expo-constants';
 
 import { Context, TabNameContext } from './Context'
 import { Lazy } from './Lazy'
@@ -475,6 +476,7 @@ const styles = StyleSheet.create({
   },
   tabBarContainer: {
     zIndex: 1,
+    paddingTop: Constants.statusBarHeight / 2,
   },
   headerContainer: {
     zIndex: 2,
