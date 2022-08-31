@@ -294,7 +294,7 @@ export const Container = React.memo(
       const onTabPress = React.useCallback(
         (name: TabName) => {
           const i = tabNames.value.findIndex((n) => n === name)
-
+          onTabChange && onTabChange()
           if (name === focusedTab.value) {
             const ref = refMap[name]
             runOnUI(scrollToImpl)(
