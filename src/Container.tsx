@@ -476,7 +476,7 @@ const styles = StyleSheet.create({
   },
   tabBarContainer: {
     zIndex: 1,
-    paddingTop: Constants.statusBarHeight / 2,
+    paddingTop: Constants.statusBarHeight,
   },
   headerContainer: {
     zIndex: 2,
