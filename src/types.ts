@@ -55,7 +55,7 @@ export type IndexChangeEventData<T extends TabName = TabName> = {
 }
 
 export type OnTabChangeCallback<T extends TabName = TabName> = (
-  data: IndexChangeEventData<T>
+  data?: IndexChangeEventData<T>
 ) => void
 
 export type TabReactElement<T extends TabName = TabName> = React.ReactElement<
