@@ -79,7 +79,7 @@
     "react-native": "*",
     "react-native-pager-view": "*",
     "react-native-reanimated": ">=2.3.0",
-    "expo-constants": "~13.1.1",
+    "expo-constants": "~13.1.1"
   },
   "husky": {
     "hooks": {
