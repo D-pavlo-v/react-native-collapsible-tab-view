@@ -16,7 +16,6 @@ import Animated, {
   withDelay,
   withTiming,
 } from 'react-native-reanimated'
-import Constants from 'expo-constants';
 
 import { Context, TabNameContext } from './Context'
 import { Lazy } from './Lazy'
